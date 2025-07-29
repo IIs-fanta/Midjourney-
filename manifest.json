@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Midjourney Image Downloader",
+  "version": "1.0",
+  "description": "Adds a one-click download button to Midjourney images.",
+  "permissions": [
+    "downloads"
+  ],
+  "host_permissions": [
+    "https://www.midjourney.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.midjourney.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "icons": {
+  "16": "icon.png",
+  "48": "icon.png",
+  "128": "icon.png"
+}
+  }
