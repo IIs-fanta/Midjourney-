@@ -1,6 +1,6 @@
 # Midjourney Image Downloader
 
-一个为 [Midjourney](https://www.midjourney.com/) 网页端图片添加“一键下载原图”按钮的 Chrome 扩展。
+一个为 [Midjourney] 网页端图片添加“一键下载原图”按钮的 Chrome 扩展。
 
 ## 功能简介
 - 只在 Midjourney 网站弹窗大图（class 含 `bg-light-lightbox`，img 带 `draggable="true"`）右下角显示“下载原图”按钮。
@@ -17,9 +17,9 @@
 4. 点击“加载已解压的扩展程序”，选择本项目文件夹（如 `midjourney-downloader`）。
 
 ## 使用说明
-1. 访问 [https://www.midjourney.com/](https://www.midjourney.com/)。
-2. 点开任意一张图片大图弹窗，右下角会出现“下载原图”按钮。
-3. 点击按钮即可自动下载原图。
+1. 点开任意一张图片大图弹窗，右下角会出现“下载原图”按钮。
+2. 点击按钮即可自动下载原图。
+<img width="1230" height="1198" alt="image" src="https://github.com/user-attachments/assets/c5f5efe4-3dc1-4fb9-8860-fea6af678453" />
 
 ## 常见问题
 - **按钮没显示？**
